@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2>Choose a picture topic</h2>
+    <p>Practice describing images in English!</p>
+
+    <form action="/start" method="post">
+        <input type="hidden" name="topic" value="airport runways">
+        <button type="submit" class="category">Airplanes & Airports</button>
+    </form>
+
+    <form action="/start" method="post">
+        <input type="hidden" name="topic" value="random">
+        <button type="submit" class="random">Random Image</button>
+    </form>
+{% endblock %}

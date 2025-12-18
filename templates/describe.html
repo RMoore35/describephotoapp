@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}Describe the Image{% endblock %}
+
+{% block content %}
+    <h2>Describe what you see</h2>
+    <img src="{{ image_url }}" alt="Practice image">
+
+    <form method="POST" action="/check">
+        <textarea name="description" placeholder="Write your description in English..." required autofocus></textarea>
+        <br>
+        <button type="submit" style="background:#27ae60;">Check My English</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Describe Image App{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- TODO -- Add my logo and links to my socials, including where to donate -->
+    <!-- Highlight mistakes -->
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <h1>English Image Practice</h1>
+            <p>Look at the picture • Write in English • Get instant feedback</p>
+        </div>
+    </header>
+
+    <main class="container">
+        {% block content %}
+            <!-- PAGE CONTENT -->
+        {% endblock %}
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; <a href="https://english-with-ryan.com/about">Ryan Moore</a> • 2025 • Made for English learners</p>
+        </div>
+    </footer>
+
+</body>
+</html>
