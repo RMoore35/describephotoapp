@@ -35,6 +35,63 @@ header p {
     opacity: 0.9; 
 }
 
+.header-sm {
+    width: fit-content;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header-sm-linkedin {
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/linkedin-bw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-sm-linkedin:hover {
+    background-image: url(../img/linkedin.png);
+}
+
+.header-sm-yt {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/YouTube-bw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-sm-yt:hover {
+    background-image: url(../img/YouTube.png);
+}
+
+.header-sm-in {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/Instagram-bw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-sm-in:hover {
+    background-image: url(../img/Instagram.png);
+}
+
+.header-sm-coffee {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/coffee-bw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-sm-coffee:hover {
+    background-image: url(../img/coffee.png);
+}
+
 .container-main {
     width: 100%;
     margin: 0 auto;
